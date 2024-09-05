@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts/fonts.scss';
+@import './variables.scss';
+@import './_reset';
+
+:root {
+  // color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main{
+  @apply max-w-screen-2xl mx-auto;
+}
+
+

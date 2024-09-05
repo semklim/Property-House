@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  background: #444;
+  @apply flex justify-center items-center p-5;
+}
+
+.container{
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+  img{
+    width: 100%;
+  }
+}
+
+.textBox{
+  position: absolute;
+  padding: 28px 40px;
+  bottom: 0;
+  left: 0;
+  color: var(--white-milky);
+
+  h1{
+    font-family: 'Transforma Mix';
+    font-size: 120px;
+    line-height: 1;
+  }
+
+  p{
+    margin-top: 28px;
+    font-family: 'Darker Grotesque Medium';
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 1;
+  }
+}

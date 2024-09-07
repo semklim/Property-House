@@ -8,7 +8,7 @@
 
 :root {
   // color-scheme: light dark;
-
+  background: var(--white-milky);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +20,36 @@ html {
 }
 
 main{
-  @apply max-w-screen-2xl mx-auto;
+  @apply max-w-screen-2xl mx-auto bg-milky;
 }
 
+
+@media (hover: hover) {
+
+  .mainBtnHover:hover{
+    background-color: var(--white-milky);
+    color: var(--red);
+  }
+
+  .mainBtnHover:active{
+    background-color: var(--white-milky);
+    color: var(--red);
+  }
+
+}
+
+@media (hover: none) {
+
+  .mainBtnHover:active{
+    background-color: var(--white-milky);
+    color: var(--red);
+  }
+
+  .specialHover:active {
+    background-color: var(--color-gold);
+    transform: scale3d(0.9, 0.9, 1);
+    transition-duration: 150ms;
+  }
+
+}
 

@@ -3,43 +3,49 @@
 
 @font-face {
   font-family: 'Brotesk';
-  src: local('Brotesk'), url('fonts/Brotesk-Trial-Semibold.otf') format('opentype');
+  src: url('fonts/Brotesk-Trial-Semibold.otf') format('opentype');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Mustica Pro';
-  src: local('Mustica Pro'), url('fonts/MusticaPro-Semibold.otf') format('opentype');
+  src: url('fonts/MusticaPro-Semibold.otf') format('opentype');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'DM Sans';
-  src: local('DM Sans Regular'), local('DMSans-Regular'), url('fonts/DMSans-Regular.ttf') format('truetype');
+  src: url('fonts/DMSans-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
 @font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Darker Grotesque';
-  src: local('Darker Grotesque Medium'), local('DarkerGrotesque-Medium'), url('fonts/DarkerGrotesque-Medium.ttf') format('truetype');
+  src: url('fonts/DarkerGrotesque-Medium.ttf') format('truetype');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Darker Grotesque';
-  src: local('Darker Grotesque Bold'), local('DarkerGrotesque-Bold'), url('fonts/DarkerGrotesque-Bold.ttf') format('truetype');
+  src: url('fonts/DarkerGrotesque-Bold.ttf') format('truetype');
   font-weight: 700;
 }
 
+
 @font-face {
   font-family: 'Syne';
-  src: local('Syne Bold'), local('Syne-Bold'), url('fonts/Syne-Bold.ttf') format('truetype');
+  src: url('fonts/Syne-Bold.ttf') format('truetype');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Transforma Mix';
-  src: local('Transforma Mix SemiBold'), local('Transforma_Mix_-SemiBold'), url('fonts/TransformaMix_Trial-SemiBold.ttf') format('truetype');
+  src: url('fonts/TransformaMix_Trial-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }

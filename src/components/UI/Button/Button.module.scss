@@ -1,0 +1,25 @@
+%button{
+  background-color: transparent;
+  border: 2px solid var(--white-milky);
+  border-radius: 100px;
+  color: var(--white-milky);
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+  user-select: none;
+}
+
+.button-main {
+  @extend %button;
+  padding: 14px 40px;
+}
+
+.button-contact-us {
+  @extend %button;
+  padding: 14px 24px;
+  
+}

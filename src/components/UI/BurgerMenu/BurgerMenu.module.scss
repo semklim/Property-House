@@ -1,0 +1,42 @@
+.burger {
+  position: relative;
+  width: 227px;
+  font-family: 'Brotesk';
+  color: var(--white-milky);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px 0;
+  font-size: 22px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: middle;
+  transition: opacity 200ms;
+
+  li {
+    opacity: 60%;
+  }
+  
+  li.active{
+    opacity: 100%;
+  }
+
+}
+
+@media (hover: hover) {
+  .burger li:hover {
+    opacity: 100%;
+  }
+
+  .burger li:active {
+    opacity: 100%;
+  }
+}
+
+@media (hover: none) {
+  .burger li:active {
+    opacity: 100%;
+  }
+}

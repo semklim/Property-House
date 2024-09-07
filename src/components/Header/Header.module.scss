@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  nav {
+    padding: 28px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.logo {
+  padding-top: 16px;
+  font-family: 'Syne';
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  font-size: 60px;
+  color: var(--white-milky);
+  text-transform: uppercase;
+}

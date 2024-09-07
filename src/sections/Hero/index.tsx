@@ -1,4 +1,5 @@
 import bgImage from '@/assets/images/hero.png';
+import Header from '@/components/Header/Header';
 import { cn } from '@/helpers/classNames';
 
 import cl from './Hero.module.scss';
@@ -13,6 +14,7 @@ export default function Hero(props: HeroProps) {
   return (
     <section className={cn(className, {}, [cl.main])} {...otherProps}>
       <div className={cn(cl.container)}>
+        <Header className="absolute" />
         <img src={bgImage} alt="" />
         <div className={cl.textBox}>
           <h1>Сайти, що втілюють ваші ідеї</h1>

@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 
+import AboutUs from './sections/AboutUs/AboutUs';
 import Hero from './sections/Hero';
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
 
   return (
     <main ref={container} className="border-indigo-700 border">
-      <div className="p-5">
+      <div className="wrapper p-5">
         <Hero />
+        <AboutUs />
       </div>
     </main>
   );

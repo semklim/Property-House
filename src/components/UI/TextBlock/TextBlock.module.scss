@@ -1,0 +1,41 @@
+.textBlock {
+  padding: 80px 0px;
+  position: relative;
+  display: flex;
+  align-items: start;
+  column-gap: 80px;
+}
+
+.first {
+  font-family: 'Transforma Mix';
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+
+  img {
+    margin-right: 24px;
+    width: 16px;
+    height: 34px;
+  }
+}
+
+.second {
+  font-family: 'Mustica Pro';
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--black)
+}
+
+.last {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: var(--grey)
+}

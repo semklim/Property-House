@@ -21,6 +21,10 @@ html {
 
 main{
   @apply max-w-screen-2xl mx-auto bg-milky;
+  
+  .wrapper > *:not(:last-child){
+    margin-bottom: 20px;
+  }
 }
 
 

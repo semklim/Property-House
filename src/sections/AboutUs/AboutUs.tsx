@@ -14,11 +14,11 @@ export default function AboutUs(props: AboutUsProps) {
   return (
     <section className={cn(cl.aboutUs, {}, [className])} {...otherProps}>
       <TextBlock
+        classNameSlogan="flex-[1_0_565px]"
         name="Про нас"
         slogan="Індивідуальний підхід та гнучкість для створення цифрових рішень"
         description="Наша команда працює над тим, щоб кожне рішення було максимально
         адаптивним, інтуїтивним і орієнтованим на вашого кінцевого користувача."
-        longSlogan
       />
       <CardsBox className="pb-8" />
     </section>

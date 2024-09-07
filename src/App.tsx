@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 
 import AboutUs from './sections/AboutUs/AboutUs';
+import Cases from './sections/Cases/Cases';
 import Hero from './sections/Hero';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className="wrapper p-5">
         <Hero />
         <AboutUs />
+        <Cases />
       </div>
     </main>
   );

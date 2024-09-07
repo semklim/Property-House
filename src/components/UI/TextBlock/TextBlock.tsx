@@ -5,19 +5,19 @@ import cl from './TextBlock.module.scss';
 
 interface TextBlockProps {
   className?: string;
+  classNameSlogan?: string;
   name: string;
   slogan: string;
   description: string;
-  longSlogan?: boolean;
 }
 
 export default function TextBlock(props: TextBlockProps) {
   const {
     className = '',
+    classNameSlogan = '',
     name,
     description,
     slogan,
-    longSlogan = false,
     ...otherProps
   } = props;
 
@@ -27,9 +27,7 @@ export default function TextBlock(props: TextBlockProps) {
         <img src={icon} alt="" />
         <h2>{name}</h2>
       </div>
-      <h3 className={cn(cl.second, { 'flex-[1_0_565px]': longSlogan })}>
-        {slogan}
-      </h3>
+      <h3 className={cn(cl.second, {}, [classNameSlogan])}>{slogan}</h3>
       <p className={cl.last}>{description}</p>
     </article>
   );

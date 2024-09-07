@@ -1,3 +1,4 @@
+import CardsBox from '@/components/UI/CardsBox/CardsBox';
 import TextBlock from '@/components/UI/TextBlock/TextBlock';
 import { cn } from '@/helpers/classNames';
 
@@ -19,7 +20,7 @@ export default function AboutUs(props: AboutUsProps) {
         адаптивним, інтуїтивним і орієнтованим на вашого кінцевого користувача."
         longSlogan
       />
-      <h2>AboutUs</h2>
+      <CardsBox className="pb-8" />
     </section>
   );
 }

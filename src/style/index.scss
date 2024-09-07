@@ -20,7 +20,7 @@ html {
 }
 
 main{
-  @apply max-w-screen-2xl mx-auto bg-milky;
+  @apply max-w-screen-2xl mx-auto bg-white;
   
   .wrapper > *:not(:last-child){
     margin-bottom: 20px;

@@ -1,4 +1,44 @@
-.cases{
+.cases {
   padding: 0 40px;
   position: relative;
+  overflow-y: hidden;
+  overflow-x: auto;
+
+}
+
+.slider {
+  padding-bottom: 34px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+.slider::-webkit-scrollbar {
+  height: 20px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: #e3000b;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+
+.slider::-webkit-scrollbar-track {
+  background: #efefef;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+
+.slider::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.slide {
+  flex: 1 1 auto;
+  margin-right: 20px;
+  scroll-snap-align: start;
 }

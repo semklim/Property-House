@@ -1,0 +1,44 @@
+.caseCardBox {
+  position: relative;
+  width: calc(100vw * 0.9);
+  max-width: 1280px;
+  // height: 820px;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: var(--red80);
+}
+
+.descWrapper{
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  padding: 40px;
+  background-color: var(--black20);
+  backdrop-filter: blur(200px);
+}
+
+.title{
+  margin-bottom: 40px;
+  font-family: 'Mustica Pro';
+  font-size: 64px;
+  line-height: 48px;
+  letter-spacing: 0;
+  color: var(--white-milky);
+}
+
+.desc{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: disc;
+  color: var(--white-milky);
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0;
+
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+}

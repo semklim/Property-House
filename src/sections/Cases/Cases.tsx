@@ -14,6 +14,7 @@ export default function Cases(props: CasesProps) {
   return (
     <section className={cn(cl.cases, {}, [className])} {...otherProps}>
       <TextBlock
+        className="px-10"
         classNameSlogan="flex-[1_0_365px]"
         name="кейси"
         slogan="Реалізовані ідеї наших клієнтів"

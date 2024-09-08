@@ -9,14 +9,14 @@ function App() {
   const container = useRef(null);
 
   return (
-    <main ref={container} className="border-indigo-700 border">
-      <div className="wrapper p-5">
+    <div ref={container}>
+      <main className="wrapper p-5">
         <Hero />
-        <AboutUs />
+        <AboutUs className="px-10" />
         <Cases />
-      </div>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
 

@@ -1,5 +1,6 @@
 .textBlock {
-  padding: 80px 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
   display: flex;
   align-items: start;
@@ -18,10 +19,12 @@
   text-wrap: nowrap;
   text-transform: uppercase;
 
+  h2{
+    padding-left: 24px;
+  }
+
   img {
-    margin-right: 24px;
-    width: 16px;
-    height: 34px;
+    padding-left: 8px;
   }
 }
 

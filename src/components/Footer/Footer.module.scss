@@ -1,0 +1,95 @@
+.footer {
+  padding: 60px 100px;
+  position: relative;
+  background-color: var(--black);
+
+  hr {
+    display: block;
+    margin: 40px 0;
+  }
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 94px;
+}
+
+.company {
+  color: var(--white-milky);
+
+  h3 {
+    padding: 11px 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Syne';
+    font-size: 33.15px;
+    line-height: 19.9px;
+    letter-spacing: 0.28px;
+
+  }
+
+  p {
+    font-family: 'Mustica Pro';
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0;
+    text-wrap: nowrap;
+  }
+
+}
+
+.infoBlocks {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.infoBlock {
+  width: 254px;
+  display: flex;
+  flex-flow: column;
+
+  address a {
+    display: block;
+  }
+}
+
+
+.title {
+  margin-bottom: 6px;
+  font-family: 'Transforma Mix_Trial';
+  font-size: 20px;
+  line-height: 28.8px;
+  letter-spacing: 0;
+  color: var(--white-milky);
+}
+
+.desc {
+  font-family: 'Mustica Pro';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: var(--grey);
+}
+
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'DM Sans';
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: var(--grey);
+}
+
+.icons {
+  color: var(--red);
+  svg{
+    display: inline-block;
+  }
+}
+
+.icons svg:not(:last-child) {
+  margin-right: 22px;
+}

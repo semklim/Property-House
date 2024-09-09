@@ -20,7 +20,9 @@ html {
 }
 
 main{
-  @apply max-w-screen-2xl mx-auto bg-white;
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: white;
   
   .wrapper > *:not(:last-child){
     margin-bottom: 20px;
@@ -28,7 +30,8 @@ main{
 }
 
 footer{
-  @apply max-w-screen-2xl mx-auto;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 

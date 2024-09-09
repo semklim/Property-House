@@ -1,4 +1,5 @@
 import bgImage from '@/assets/images/hero.png';
+import bgMobileImage from '@/assets/images/hero_mobile.png';
 import Header from '@/components/Header/Header';
 import { cn } from '@/helpers/classNames';
 
@@ -15,7 +16,10 @@ export default function Hero(props: HeroProps) {
     <section className={cn(className, {}, [cl.main])} {...otherProps}>
       <div className={cn(cl.container)}>
         <Header className="absolute" />
-        <img src={bgImage} alt="" />
+        <picture>
+          <source media="(max-width: 768px)" srcSet={bgMobileImage} />
+          <img srcSet={bgImage} alt="Commit" />
+        </picture>
         <div className={cl.textBox}>
           <h1>Сайти, що втілюють ваші ідеї</h1>
           <p>

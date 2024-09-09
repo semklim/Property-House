@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div ref={container}>
-      <main className="wrapper p-5">
+      <main className="wrapper p-2.5 md:p-5 overflow-hidden">
         <Hero />
         <AboutUs className="px-10" />
         <Cases />
       </main>
-      <Footer />
+      <Footer className="overflow-hidden" />
     </div>
   );
 }

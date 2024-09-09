@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + ESLint airbnb style guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This test task. Layout made using figma desinged website.
 
-Currently, two official plugins are available:
+Figma - [Desing](https://www.figma.com/design/dN0V4anwjTRfoeCESe4kmS/Site-%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B5?node-id=0-1&t=bz811OIV6wQHU6zb-1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   ```bash
+   git clone https://github.com/semklim/Property-House.git
+   cd property-house
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. Install dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+   ```bash
+   npm install
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see your application in action.
+
+
+
